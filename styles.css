@@ -1,0 +1,141 @@
+body {
+    font-family: 'Times new roman', sans-serif; /* Police moderne et lisible */
+    line-height: 1,6;
+    margin: 0;
+    padding: 0;
+    background-color: #4CAF50; /* Fond vert */
+    color: black; /* Couleur de texte principale (noire) */
+}
+
+/* En-tête */
+header {
+    background: #4CAF50; /* Couleur de fond de l'en-tête */
+    color: white; /* Texte blanc pour l'en-tête */
+    padding: 20px 0;
+    text-align: center;
+}
+.maphoto {
+    width: 40%; /* Ajuste cette valeur selon tes besoins */
+    height: auto; /* Maintient le ratio de l'image */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white; /* Texte blanc pour les liens */
+    text-decoration: none;
+    font-weight: 700; /* Texte en gras */
+    transition: color 0.3s; /* Transition douce pour le survol */
+}
+nav a:hover {
+    color: #e0e0e0; /* Couleur au survol */
+}
+
+/* Contenu principal */
+main {
+    padding: 20px;
+    max-width: 800px; /* Largeur maximale */
+    margin: auto; /* Centrage du contenu */
+    background: white; /* Fond blanc pour le contenu */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+h1, h2, h3 {
+    color: #4CAF50; /* Couleur pour les titres */
+}
+h1 {
+    font-size: 2.5em; /* Taille du titre principal */
+}
+h2 {
+    font-size: 2em; /* Taille des sous-titres */
+}
+h3 {
+    font-size: 1.5em; /* Taille des titres d'articles */
+}
+
+/* Formulaire */
+form {
+    display: flex;
+    flex-direction: column; /* Alignement vertical */
+}
+label {
+    margin: 10px 0 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 12px; /* Espacement interne */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 4px; /* Coins arrondis */
+    margin-bottom: 15px; /* Espacement entre les champs */
+}
+button {
+    background: #4CAF50; /* Couleur du bouton */
+    color: white; /* Texte blanc pour le bouton */
+    border: none; /* Pas de bordure */
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer; /* Curseur en main */
+    font-weight: bold;
+    transition: background 0.3s; /* Transition douce pour le survol */
+}
+button:hover {
+    background: #45a049; /* Couleur au survol */
+}
+/* styles.css */
+nav ul li a {
+    
+    text-decorat
+    text-decoration: none;
+    padding: 10px;
+    color: white; /* couleur par défaut */
+    transition: background-color 0.3s, color 0.3s; /* transition douce */
+}
+.hover-effect {
+    background 
+    background-color: green; /* couleur de fond au survol */
+    color: white; /* couleur du texte au survol */
+}
+h2 {
+    text-align: center; /* Centre le titre */
+    font-size: 2em; /* Taille du texte */
+    margin-bottom: 20px; /* Espace en dessous du titre */
+}
+
+.gallery {
+    display: grid; /* Utilise une grille pour l'affichage */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Colonne adaptative */
+    gap: 10px; /* Espace entre les images */
+    padding: 20px; /* Padding autour de la galerie */
+}
+
+.gallery img {
+    width: 100%; /* L'image prend toute la largeur de sa cellule */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 0px; /* Arrondit les coins des images */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajoute une ombre aux images */
+}
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #4CAF50; /* Même couleur que l'en-tête */
+    color: white; /* Texte blanc pour le pied de page */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
